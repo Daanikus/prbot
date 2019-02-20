@@ -5,8 +5,8 @@ A bot for Slack that posts the name and link of a GitHub Pull Request that you h
 ![PRBot Example Image](https://github.com/Daanikus/prbot/blob/master/prbot.png)
 
 ## Requirements
-- [Go](https://golang.org/)\
-- [Dep](https://github.com/golang/dep)\
+- [Go](https://golang.org/)
+- [Dep](https://github.com/golang/dep)
 - [Slack](https://slack.com/)
 
 ## Usage
