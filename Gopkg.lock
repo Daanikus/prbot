@@ -10,36 +10,6 @@
   version = "v0.3"
 
 [[projects]]
-  digest = "1:bac714a0e5e02c9fc92e7868c70a43c58b00bc2c746e15e6f695c18f4bec94e7"
-  name = "github.com/codelingo/cayley"
-  packages = [
-    "quad",
-    "voc",
-    "voc/schema",
-  ]
-  pruneopts = "UT"
-  revision = "55420359f7e547bdbab676cd0cd328c81bb04d7f"
-
-[[projects]]
-  digest = "1:6df2655c8899b9eb0d45e7b21d6b18149e14eb0e961b195b1e76ec96c7299300"
-  name = "github.com/codelingo/lingo"
-  packages = ["service/config"]
-  pruneopts = "UT"
-  revision = "1fea2ca002779bbd9733e9b271a06d91fd76c93c"
-  version = "v0.7.3"
-
-[[projects]]
-  digest = "1:eb7a2b784fcbf51fa43a6e1b51c1e7243f726a40efd3bd939ee2136e7e11211f"
-  name = "github.com/codelingo/platform"
-  packages = [
-    "controller/constants",
-    "util",
-  ]
-  pruneopts = "UT"
-  revision = "c324b2dc26162e3d54ea75ea8025d20bc19796bb"
-  version = "v0.1.11-staging"
-
-[[projects]]
   digest = "1:97df918963298c287643883209a2c3f642e6593379f97ab400c2a2e219ab647d"
   name = "github.com/golang/protobuf"
   packages = ["proto"]
@@ -62,14 +32,6 @@
   pruneopts = "UT"
   revision = "44c6ddd0a2342c386950e880b658017258da92fc"
   version = "v1.0.0"
-
-[[projects]]
-  branch = "master"
-  digest = "1:c332ef8a8f0eec41f75f8f39c885f650dab0c3de426bde6b37fff6a823feab25"
-  name = "github.com/hishboy/gocommons"
-  packages = ["lang"]
-  pruneopts = "UT"
-  revision = "89887b2ade6d89e3b322e2e3c8e337ad5c6a447b"
 
 [[projects]]
   branch = "master"
@@ -102,30 +64,6 @@
   pruneopts = "UT"
   revision = "ba968bfe8b2f7e042a574c888954fccecfa385b4"
   version = "v0.8.1"
-
-[[projects]]
-  digest = "1:3dc31afac5daebc3d6f7e9d8749ee5c3fba79483ce9d0945de01716d033c6ff4"
-  name = "go.uber.org/atomic"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "0c9e689d64f004564b79d9a663634756df322902"
-  version = "v1.0.0"
-
-[[projects]]
-  digest = "1:ac5094067a4fa40c59a29f47b96e6b76f73efb9e269b3e930fc7ddf782fd54a1"
-  name = "go.uber.org/zap"
-  packages = [
-    ".",
-    "buffer",
-    "internal/bufferpool",
-    "internal/color",
-    "internal/exit",
-    "internal/multierror",
-    "zapcore",
-  ]
-  pruneopts = "UT"
-  revision = "1550bc05539134bbf8612a35f34a79ab8bf34ee3"
-  version = "v1.2.0"
 
 [[projects]]
   branch = "master"
@@ -190,20 +128,11 @@
   revision = "e9657d882bb81064595ca3b56cbe2546bbabf7b1"
   version = "v1.4.0"
 
-[[projects]]
-  digest = "1:4d2e5a73dc1500038e504a8d78b986630e3626dc027bc030ba5c75da257cdb96"
-  name = "gopkg.in/yaml.v2"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "51d6538a90f86fe93ac480b35f37b2be17fef232"
-  version = "v2.2.2"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
     "github.com/ashwanthkumar/slack-go-webhook",
-    "github.com/codelingo/platform/util",
     "github.com/google/go-github/github",
     "github.com/juju/errors",
     "golang.org/x/oauth2",
