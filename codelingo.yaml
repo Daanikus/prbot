@@ -1,3 +1,4 @@
 tenets:
+- import: codelingo/effective-go/initialize-using-composite-literal
 - import: codelingo/effective-go/good-package-name
 - import: codelingo/effective-go/defer-close-file
