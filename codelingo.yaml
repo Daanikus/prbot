@@ -1,2 +1,3 @@
 tenets:
+- import: codelingo/effective-go/good-package-name
 - import: codelingo/effective-go/defer-close-file
